@@ -24,7 +24,7 @@ export const Projects = () => {
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-transition-y-1 hover:border-blue-500/30 
                     hover:shadow-[0_2px_8px_rgba(59,120,2246,0.8)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Weather App</h3>
                         <p className="text-gray-400 mb-4">Scalable cloud infrastructure management with real-time monitoring and automated scaling</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js","AWS","Docker"].map((tech, key)=>(
@@ -56,7 +56,7 @@ export const Projects = () => {
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-transition-y-1 hover:border-blue-500/30 
                     hover:shadow-[0_2px_8px_rgba(59,120,2246,0.8)] transition">
-                        <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+                        <h3 className="text-xl font-bold mb-2">Tasktrek</h3>
                         <p className="text-gray-400 mb-4">Scalable cloud infrastructure management with real-time monitoring and automated scaling</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js","AWS","Docker"].map((tech, key)=>(
