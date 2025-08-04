@@ -24,6 +24,12 @@ jobs:
       - name: Build site
         run: npm run deploy    # Change if your build command is different
 
+           # Add this step to configure git user
+      - name: Configure Git user
+        run: |
+          git config --global gurdeepgit 
+          git config --global gurdeep.eec70@gmail.com 
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
